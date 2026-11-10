@@ -1,0 +1,31 @@
+# Root-level lockfile (there is no root package.json)
+/package-lock.json
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Nuxt build output
+client/.nuxt/
+client/.output/
+client/.data/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
